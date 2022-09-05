@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    background-color: #f4f4f4ff;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.item{
+    width: 80px;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+    float: left;
+}
+
+.item:nth-last-of-type(1){
+    
+}
+
+.item:nth-last-of-type(2){
+    
+}
+
+.item:nth-last-of-type(3){
+    
+}
+
+.item:nth-last-of-type(4){
+    
+}
+
+.item:nth-last-of-type(5){
+    
+}
